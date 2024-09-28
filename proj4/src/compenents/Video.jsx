@@ -10,7 +10,21 @@ function Video() {
 
         <div className="flex flex-col lg:flex-row justify-between">
           <div className="lg:w-[45%] h-full mb-5">
-            <div className="aspect-video">
+            
+<div className="relative flex justify-center items-center">
+  <img src="https://img.freepik.com/premium-photo/fruit-vegetables-are-low-calories-nutrient-dense_957032-417.jpg" alt="" className="w-full h-auto" />
+
+  <button className="absolute flex justify-center items-center play-btn rounded-full p-5">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill={'black'} className="bi bi-play-fill" viewBox="0 0 16 16">
+      <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
+    </svg>
+  </button>
+</div>
+
+
+
+
+            {/* <div className="aspect-video">
               <iframe
                 className="w-full h-full"
                 src="https://www.youtube.com/embed/Z8YFiwcrp2E?si=_O4YSDV57q6K4AOk"
@@ -19,10 +33,7 @@ function Video() {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
               ></iframe>
-
-
-              
-            </div>
+            </div> */}
             <p className="text-4xl my-10  font-bold">
               Dianna Adams visits the Sooto Restaurant | Uncovered Miami
             </p>

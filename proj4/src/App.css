@@ -29,6 +29,19 @@
 
 
   /* btns and links */
+
+  .play-btn{
+    background-color: white;
+    color: #C99584;
+
+  }
+
+  .play-btn:hover{
+    background-color: #C99584;
+    color: white;
+
+  }
+
   .pink-btn{
     background-color: #C99584;
     border: 1px solid white;
